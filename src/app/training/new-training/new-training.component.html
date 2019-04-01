@@ -1,0 +1,57 @@
+<section class="new-training" fxLayout fxLayoutAlign="center">
+  <mat-card fxFlex.xs="98vw" fxFlex.gt-sm="40vw">
+    <mat-card-header fxLayoutAlign="center">
+      <img
+        mat-card-avatar
+        src="../assets/training_images/barbell-bench-press.jpg"
+        alt=""
+      />
+      <mat-card-title>Barbell Bench Press</mat-card-title>
+      <mat-card-subtitle>Trainer Scott Herman</mat-card-subtitle>
+    </mat-card-header>
+    <video controls>
+      <source
+        src="../assets/training_videos/How To_ Barbell Bench Press.mp4"
+        type="video/mp4"
+      />
+      Browser not supported
+    </video>
+    <mat-card-content>
+      <mat-form-field>
+        <mat-select placeholder=" Exercises">
+          <mat-option value="barbell-bench-press">
+            Barbell Bench Press
+          </mat-option>
+          <mat-option value="barbell-bench-press">
+            Extensions
+          </mat-option>
+          <mat-option value="barbell-bench-press">
+            Incline
+          </mat-option>
+          <mat-option value="barbell-bench-press">
+            Crunches
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </mat-card-content>
+    <mat-card-actions fxLayout="row" fxLayoutAlign="start center">
+      <button
+        mat-button
+        fxLayout="column"
+        fxLayoutAlign="start strecth"
+        fxFlex="10%"
+      >
+        START
+      </button>
+      <div fxLayout="column" fxLayoutAlign="start strecth" fxFlex="80%"></div>
+      <button
+        mat-button
+        fxLayout="column"
+        fxLayoutAlign="end strecth"
+        fxFlex="10%"
+      >
+        DONE
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</section>

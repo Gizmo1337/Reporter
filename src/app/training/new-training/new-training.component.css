@@ -1,0 +1,22 @@
+video {
+  width: 100%;
+  height: auto;
+}
+
+.barbell-bench-press {
+  background-size: 50px;
+  size: 50px;
+  background-image: url("../../../assets/training_images/barbell-bench-press.jpg");
+  background-size: cover;
+}
+mat-card {
+  border-radius: 3%;
+  height: 98%;
+}
+mat-card-content {
+  margin: 0;
+}
+
+.new-training {
+  height: 100%;
+}
